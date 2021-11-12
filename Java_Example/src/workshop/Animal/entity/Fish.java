@@ -1,39 +1,36 @@
 package workshop.Animal.entity;
 
 public class Fish extends Animal implements Pet {
-	
-	String name;
 
+	String name;
 
 	public Fish() {
 		super(0);
-		System.out.println("´Ù¸®°¡ ¾øÀ½");
+		System.out.println("ë‹¤ë¦¬ê°€ ì—†ìŒ");
 	}
-	
+
 	@Override
 	public void walk() {
 		super.walk();
-		System.out.println("¹°°í±â´Â °ÉÀ» ¼ö ¾÷´Ù");
+		System.out.println("ë¬¼ê³ ê¸°ëŠ” ê±¸ì„ ìˆ˜ ì—†ë‹¤");
 	}
-	
-
 
 	@Override
 	void eat() {
 		// TODO Auto-generated method stub
-		
+
 	}
-	
+
 	@Override
 	public void play() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void setName(String name) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
@@ -42,14 +39,3 @@ public class Fish extends Animal implements Pet {
 		return null;
 	}
 }
-
-	
-	
-	
-	
-	
-	
-
-	
-
-	
